@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ 𝐂𝐋𝐎𝐒𝐄 ✯", callback_data=f"close"
             )
         ],
     ]
@@ -147,7 +147,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ 𝐂𝐋𝐎𝐒𝐄 ✯", callback_data=f"close"
             )
         ],
     ]
@@ -173,7 +173,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ 𝐂𝐋𝐎𝐒𝐄 ✯", callback_data=f"close"
             )
         ],
     ]
@@ -187,17 +187,17 @@ def track_markup(_, videoid, user_id, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_1"],
+                text=_["𝐏_𝐁_1"],
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["𝐏_𝐁_2"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
+                text=_["𝐂𝐋𝐎𝐒𝐄_𝐁𝐔𝐓𝐓𝐎𝐍"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             )
         ],
@@ -211,17 +211,17 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_3"],
+                text=_["𝐏_𝐁_3"],
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_3"],
+                text=_["𝐒_𝐁_3"],
                 url=f"{config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"],
+                text=_["𝐂𝐋𝐎𝐒𝐄𝐌𝐄𝐍𝐔_𝐁𝐔𝐓𝐓𝐎𝐍"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
         ]
@@ -234,21 +234,21 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_1"],
+                text=_["𝐏_𝐁_1"],
                 callback_data=f"AnonPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["𝐏_𝐁_2"],
                 callback_data=f"AnonPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_3"],
+                text=_["𝐒_𝐁_3"],
                 url=f"{config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
+                text=_["𝐂𝐋𝐎𝐒𝐄_𝐁𝐔𝐓𝐓𝐎𝐍"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
         ],
@@ -266,11 +266,11 @@ def slider_markup(
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_1"],
+                text=_["𝐏_𝐁_1"],
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["𝐏_𝐁_2"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
         ],
@@ -280,7 +280,7 @@ def slider_markup(
                 callback_data=f"slider B|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
+                text=_["𝐂𝐋𝐎𝐒𝐄_𝐁𝐔𝐓𝐓𝐎𝐍"],
                 callback_data=f"forceclose {query}|{user_id}",
             ),
             InlineKeyboardButton(
@@ -297,7 +297,7 @@ close_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                        text="✯ 𝐂𝐋𝐎𝐒𝐄 ✯", callback_data="close"
                     )
                 ]    
             ]
@@ -328,7 +328,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ 𝐂𝐋𝐎𝐒𝐄 ✯", callback_data=f"close"
             )
         ],
     ]
