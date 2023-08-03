@@ -32,7 +32,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("AnonX").warning(
-            "AB SPOTIFY SE SONG NHI. CHLEGAA SPOTIFY ID TOH DALA HI NHI AAPNE ⚡ @PRADHAN474 ⚡."
+            "AB SPOTIFY SE SONG NHI. CHLEGAA SPOTIFY ID TOH DALA HI NHI AAPNE ⚡ @smarty_boy11 ⚡."
         )
     try:
         users = await get_gbanned()
