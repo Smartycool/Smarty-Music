@@ -8,11 +8,11 @@ def back_stats_markup(_):
         [
             [
                 InlineKeyboardButton(
-                    text=_["BACK_BUTTON"],
+                    text=_["𝐁𝐀𝐂𝐊_𝐁𝐔𝐓𝐓𝐎𝐍"],
                     callback_data="TOPMARKUPGET",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
+                    text=_["𝐂𝐋𝐎𝐒𝐄_𝐁𝐔𝐓𝐓𝐎𝐍𝐒"],
                     callback_data="close",
                 ),
             ],
@@ -26,11 +26,11 @@ def overallback_stats_markup(_):
         [
             [
                 InlineKeyboardButton(
-                    text=_["BACK_BUTTON"],
+                    text=_["𝐁𝐀𝐂𝐊_𝐁𝐔𝐓𝐓𝐎𝐍𝐒"],
                     callback_data="GlobalStats",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
+                    text=_["𝐂𝐋𝐎𝐒𝐄_𝐁𝐔𝐓𝐓𝐎𝐍"],
                     callback_data="close",
                 ),
             ],
@@ -42,7 +42,7 @@ def overallback_stats_markup(_):
 def get_stats_markup(_, status):
     not_sudo = [
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"],
+            text=_["𝐂𝐋𝐎𝐒𝐄_𝐁𝐔𝐓𝐓𝐎𝐍"],
             callback_data="close",
         )
     ]
@@ -52,7 +52,7 @@ def get_stats_markup(_, status):
             callback_data="bot_stats_sudo g",
         ),
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"],
+            text=_["𝐂𝐋𝐎𝐒𝐄𝐌𝐄𝐍𝐔_𝐁𝐔𝐓𝐓𝐎𝐍"],
             callback_data="close",
         ),
     ]
@@ -102,7 +102,7 @@ def stats_buttons(_, status):
             sudo if status else not_sudo,
             [
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
+                    text=_["𝐂𝐋𝐎𝐒𝐄_𝐁𝐔𝐓𝐓𝐎𝐍"],
                     callback_data="close",
                 ),
             ],
@@ -116,11 +116,11 @@ def back_stats_buttons(_):
         [
             [
                 InlineKeyboardButton(
-                    text=_["BACK_BUTTON"],
+                    text=_["𝐁𝐀𝐂𝐊_𝐁𝐔𝐓𝐓𝐎𝐍"],
                     callback_data="GETSTATS",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
+                    text=_["𝐂𝐋𝐎𝐒𝐄_𝐁𝐔𝐓𝐓𝐎𝐍"],
                     callback_data="close",
                 ),
             ],
@@ -154,11 +154,11 @@ def top_ten_stats_markup(_):
             ],
             [
                 InlineKeyboardButton(
-                    text=_["BACK_BUTTON"],
+                    text=_["𝐁𝐀𝐂𝐊_𝐁𝐔𝐓𝐓𝐎𝐍"],
                     callback_data="GlobalStats",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
+                    text=_["𝐂𝐋𝐎𝐒𝐄_𝐁𝐔𝐓𝐓𝐎𝐍"],
                     callback_data="close",
                 ),
             ],
