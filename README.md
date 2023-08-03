@@ -1,13 +1,13 @@
 <h2 align="center">
-    ──「 ˹˼™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍𓃭 ⃟ᴍᴜsɪᴄ⛦⃕͜༆ 」──
+    ──「 ˹˼™°‌SMARTY𓃭 ᴍᴜsɪᴄ⛦⃕͜༆ 」──
 </h2>
 
 <p align="center">
-  <img src="https://graph.org/file/b0825ba6490d2aa6a6afd.jpg">
+  <img src="https://graph.org/file/05a78860c5404dfeb76be.jpg">
 </p>
 
 <p align="center">
-<a href="https://github.com/PRADHAN474/OXY-Music/stargazers"><img src="https://img.shields.io/github/stars/AnonymousX1025/AnonXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/Smartycool/Smarty-Music/stargazers"><img src="https://img.shields.io/github/stars/AnonymousX1025/AnonXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/Devansh-Bots/DevvXMusic/network/members"> <img src="https://img.shields.io/github/forks/AnonymousX1025/AnonXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/PRADHAN474/OXY-Music/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
